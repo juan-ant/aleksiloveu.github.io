@@ -1,0 +1,117 @@
+*{
+  font-family: "montserrat", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.page{
+  /*background: #f1f1f1;*/
+  background: #fbf9f5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  flex: 1;
+  height: 100vh;
+  position: relative;
+}
+
+.timer-col{
+  background: url(love-bg.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.time{
+  color: #000;
+  text-transform: uppercase;
+  widows: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-middle{
+  color: #fbf9f5;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.time span{
+  padding: 0 14px;
+  font-size: 10px;
+}
+
+.time span div{
+  font-size: 40px;
+}
+
+.letter{
+  width: 90%
+}
+
+.letter h3{
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-style: italic;
+  font-size: 18px;
+  text-align: left;
+}
+
+.letter h4{
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+
+}
+
+.letter input{
+  display: block;
+  margin: 12px auto;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+ .letter-btn{
+   background: linear-gradient(125deg,#3498db, #34495e);
+   color: #fff;
+   cursor: pointer;
+   transition: 0.4s;
+ }
+
+.letter-btn: hover{
+  opacity: .7;
+}
+
+.letter-ph p{
+  font-family: 'Goudy Bookletter 1911', serif;
+  text-align: justify;
+
+}
+
+@media screen and (max-width: 900px){
+  .col{
+    flex: 100%;
+    height: 150vh;
+  }
+}
