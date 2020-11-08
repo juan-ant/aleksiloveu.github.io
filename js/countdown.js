@@ -20,10 +20,10 @@ function updateClock() {
   var secs = diff;
 
   //document.getElementById("time-elapsed").innerHTML = d + " day(s), " + h + " hour(s), " + m + " minute(s), " + s + " second(s) working";
-  d.innerHTML = days;
-  h.innerHTML = hours;
-  m.innerHTML = mins;
-  s.innerHTML = secs;
+  dd.innerHTML = days;
+  hh.innerHTML = hours;
+  mm.innerHTML = mins;
+  ss.innerHTML = secs;
 
   console.log(days + " days " + hours + " hours " + mins + " minutes " + secs + "seconds");
 }
